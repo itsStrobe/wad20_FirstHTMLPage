@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            ClassPractice
+        </title>
+    </head>
+
+    <header>
+        <ul>
+            <li>
+                <a href="./ClassExcercise1.html" target=blank>Home</a>
+            </li>
+            <li>
+                <a href="./About.html" target=blank>About</a>
+            </li>
+            <li>
+                <a href="./Reviews.html" target=blank>Reviews</a>
+            </li>
+        </ul>
+    </header>
+
+    <section id="sidebar" name="sidebar">
+        <p>
+            This is the sidebar!
+        </p>
+    </section>
+
+    <main>
+        <head>
+            <h1>
+                Welcome to our menu!
+            </h1>
+        </head>
+        <body>
+            <div name="menuTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Food
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Salad
+                            </td>
+                            <td>
+                                Fresh, delicious Cobb Salad
+                            </td>
+                            <td>
+                                $7.99
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Burger
+                            </td>
+                            <td>
+                                1/4 lb grass-fed burger with choice of cheese.
+                            </td>
+                            <td>
+                                $6.99
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Chicken Salad Sandwich
+                            </td>
+                            <td>
+                                Our world famous chicken salad on a bagel with homemade pickles.
+                            </td>
+                            <td>
+                                $8.99
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Buffalo Chicken Sandwich
+                            </td>
+                            <td>
+                                Spicy fried chicken on a brioche bun
+                            </td>
+                            <td>
+                                $10.99
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fries
+                            </td>
+                            <td>
+                                Hand cut potatoes lightly fried and seasoned
+                            </td>
+                            <td>
+                                $1.99
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Soda
+                            </td>
+                            <td>
+                                Regular, diet, orange, or root beer
+                            </td>
+                            <td>
+                                $1.00
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div name="feedbackForm">
+                <form name="comment">
+                    <fieldset>
+                        <legend>
+                            Leave us a comment
+                        </legend>
+                        <div>
+                            <label for="userfname">
+                                First name:
+                            </label>
+                            <input type="text" id="userfname" class="usercomment" name="userfname" value="John"/>
+                        </div>
+                        <div>
+                            <label for="userlname">
+                                Last name:
+                            </label>
+                            <input type="text" id="userlname" class="usercomment" name="userlname" value="Doe"/>
+                        </div>
+                        <div>
+                            <label for="usermail">
+                                E-Mail:
+                            </label>
+                            <input type="email" id="usermail" class="usercomment" name="usermail" value="user@mail.com"/>
+                        </div>
+                        <div>
+                            <label for="userphone">
+                                E-Mail:
+                            </label>
+                            <input type="tel" id="userphone" class="usercomment" name="userphone" value="XXXXXXXXX"/>
+                        </div>
+                        <div>
+                            <label for="userrate">
+                                Rate us:
+                            </label>
+                            <select name="userrate" id="userrate" class="usercomment">
+                                <option value="1">
+                                    Very Bad
+                                </option>
+                                <option value="2">
+                                    Bad
+                                </option>
+                                <option value="3">
+                                    Neutral
+                                </option>
+                                <option value="4">
+                                    Good
+                                </option>
+                                <option value="5">
+                                    Very Good
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="usertextcomment">
+                                Your comment:
+                            </label>
+                            <textarea name="usertextcomment" id="usertextcomment">
+                            </textarea>
+                        </div>
+                        <div>
+                            <label for="uservisit">
+                                Would you visit us again?
+                            </label>
+
+                            <div>
+                                <input type="radio" id="uservisitagain-yes" class="usercomment" name="uservisitagain"/>
+                                <label for="uservisitagain-yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="uservisitagain-no" class="usercomment" name="uservisitagain"/>
+                                <label for="uservisitagain-no">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="submit" id="submit" class="userform" name="submit" value="Submit" />
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </body>
+        <footer>
+            This is where any content in the footer would go.
+        </footer>
+    </main>
+</html>

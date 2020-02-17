@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            First Page
+        </title>
+    </head>
+    <meta charset="UTF-8"/>
+    <body>
+        <h1>
+            Title of Page
+        </h1>
+        <h2>
+            Subtitle of the Page
+        </h2>
+        <h6>
+            Tiny-bitty header
+        </h6>
+
+        <ul>
+            <li>
+                Element 1
+            </li>
+            <li>
+                Element 2
+            </li>
+        </ul>
+
+        <ol>
+            <li>
+                Element 1
+            </li>
+            <li>
+                Element 2
+            </li>
+        </ol>
+        <p>
+            My paragraph.
+
+            Use this <a href="https://www.google.com" target="blank">link</a> to go to a website.
+        </p>
+        <form>
+            <fieldset>
+                <legend>
+                    Title of Form
+                </legend>
+                <div>
+                    <label for="username">
+                        Username:
+                    </label>
+                    <input type="text" id="username" class="userform" name="username" value="Test"/>
+                </div>
+                <div>
+                    <label for="userpass">
+                        Password:
+                    </label>
+                    <input type="password" id="userpass" class="userform" name="userpass" value="Pass"/>
+                </div>
+                <div>
+                    <input type="radio" id="gender-male" class="userform" name="gender"/>
+                    <label for="gender-male">
+                        Male
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" id="gender-female" class="userform" name="gender"/>
+                    <label for="gender-female">
+                        Female
+                    </label>
+                </div>
+                <div>
+                    <label for="country">
+                        Country:
+                    </label>
+                    <select name="country" id="country" class="userform">
+                        <option value="Mx">
+                            Mexico
+                        </option>
+                        <option value="Fr">
+                            France
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" id="submit" class="userform" name="submit" value="Submit" />
+                </div>
+            </fieldset>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        One
+                    </th>
+                    <th>
+                        Two
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        First
+                    </td>
+                    <td>
+                        Second
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <img src="https://i.redd.it/xrkamb5fehn31.jpg" alt="Test Image"/>
+    </body>
+
+    <!--
+        Accessible Elements
+        <!DOCTYPE html>
+        <img>
+        <label> <main> <header>
+        <tbody> <thead> <tfoot>
+        <section> <footer> <article> <address>
+    -->
+
+    <!--
+        In-line elements will fill the rest of the line in the browser. [<img>, <a>, <input>, <label>, <button>, <select>, <textarea>, <span>]
+        Block elements will automatically escape the text. [<p>, <h>, <ul>, <ol>, <form>, <div>, <table>]
+    -->
+
+    <!--
+        ID: Identifier for elements.
+            - Never repeat ID tags for elements.
+
+        Class: Binder for group of elements
+
+        Name: Identifier for elements exclusive for JavaScript purposes (particularly for <form> tags).
+            - Name can be shared among elements.
+    -->
+
+    <!--
+        Attribute Standards
+        - Never begin with a number
+        - Should begin with lowercase letter
+        - Can be followed by [a-zA-Z0-9_-]
+    -->
+</html>
